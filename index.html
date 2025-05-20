@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>https://bengkellapasabepura.com</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: url('—Pngtree—working tools in the garage_15693396.png') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255 102 0 / 0.7);
+      user-select: none;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      user-select: none;
+    }
+
+    nav a.active,
+    nav a:hover {
+      background-color: #ff6600;
+      color: white;
+    }
+
+    main {
+      flex-grow: 1;
+      margin-top: 30px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      min-height: 420px;
+    }
+
+    section.content-section {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.7s ease;
+      background: rgba(255 255 255 / 0.1);
+      border-radius: 10px;
+      padding: 40px 20px;
+      color: white;
+      box-sizing: border-box;
+      min-height: 420px;
+    }
+
+    section.content-section.active {
+      opacity: 1;
+      visibility: visible;
+      position: relative;
+    }
+
+    section.content-section h2 {
+      color: #ff6600;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    ul.services-list {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+
+    ul.services-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255 255 255 / 0.3);
+    }
+
+    ul.services-list li:last-child {
+      border-bottom: none;
+    }
+
+    #tentang p {
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    form input,
+    form textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+      resize: vertical;
+    }
+
+    form button {
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #e65c00;
+    }
+
+    /* Kontak tambahan style */
+    .contact-info {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 18px;
+    }
+    .contact-info p {
+      margin-bottom: 12px;
+    }
+    .contact-info a {
+      color: #ff6600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .contact-info a:hover {
+      color: #e65c00;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+      margin-top: 20px;
+      user-select: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav ul {
+        gap: 15px;
+      }
+      nav a {
+        font-size: 16px;
+        padding: 4px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>LAPAS KELAS IIA ABEPURA</h1>
+      <nav>
+        <ul>
+          <li><a href="#" class="nav-link active" data-target="beranda">Beranda</a></li>
+          <li><a href="#" class="nav-link" data-target="layanan">Layanan</a></li>
+          <li><a href="#" class="nav-link" data-target="tentang">Tentang Kami</a></li>
+          <li><a href="#" class="nav-link" data-target="kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="beranda" class="content-section active">
+        <h2>Selamat Datang di Bengkel Kreatif</h2>
+        <p style="font-size: 18px; text-align:center; margin-bottom: 30px;">
+          Solusi peralatan dan perbaikan terpercaya.
+        </p>
+        <div style="text-align:center;">
+          <a href="#" class="cta" style="
+            display: inline-block;
+            background-color: #f3963a;
+            padding: 12px 25px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            cursor:pointer;
+          " data-target="kontak">Hubungi Sekarang</a>
+        </div>
+      </section>
+
+      <section id="layanan" class="content-section">
+        <h2>Layanan Kami</h2>
+        <ul class="services-list">
+          <li>🔧 Perbaikan Mesin</li>
+          <li>⚙️ Servis dan Perawatan Berkala</li>
+          <li>🛠️ Konsultasi dan Penyesuaian Peralatan</li>
+        </ul>
+      </section>
+
+      <section id="tentang" class="content-section">
+        <h2>Tentang Kami</h2>
+        <p>
+          Bengkel Kreatif berdedikasi memberikan layanan perbaikan dan solusi peralatan dengan kualitas terbaik dan harga terjangkau. Tim kami siap membantu Anda kapan saja.
+        </p>
+      </section>
+
+      <section id="kontak" class="content-section">
+        <h2>Kontak Kami</h2>
+        <form onsubmit="event.preventDefault(); alert('Pesan terkirim!'); this.reset();">
+          <input type="text" placeholder="Nama Lengkap" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Pesan Anda" rows="4" required></textarea>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+        <div class="contact-info">
+          <p>📞 WhatsApp: <a href="https://wa.me/6282198817607" target="_blank" rel="noopener noreferrer">0821-9881-7607</a></p>
+          <p>📧 Email: <a href="mailto:aconaibe@example.com">aconaibe@gmail..com</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Bengkel Kreatif. Semua Hak Dilindungi.</p>
+    </footer>
+  </div>
+
+  <script>
+    const links = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('.content-section');
+    const ctaBtn = document.querySelector('.cta');
+
+    let currentIndex = 0;
+    const sectionIds = ['beranda', 'layanan', 'tentang', 'kontak'];
+    const slideIntervalTime = 8000; // 8 detik
+    let slideInterval;
+
+    function showSection(id) {
+      sections.forEach(section => {
+        if (section.id === id) {
+          section.classList.add('active');
+        } else {
+          section.classList.remove('active');
+        }
+      });
+
+      links.forEach(link => {
+        if (link.dataset.target === id) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+
+      currentIndex = sectionIds.indexOf(id);
+    }
+
+    // Fungsi untuk slide otomatis
+    function startSlideShow() {
+      slideInterval = setInterval(() => {
+        currentIndex++;
+        if (currentIndex >= sectionIds.length) {
+          currentIndex = 0;
+        }
+        showSection(sectionIds[currentIndex]);
+      }, slideIntervalTime);
+    }
+
+    // Fungsi untuk stop slide otomatis (misal ketika klik manual)
+    function stopSlideShow() {
+      clearInterval(slideInterval);
+    }
+
+    // Event listener untuk menu navigasi
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = link.dataset.target;
+        showSection(target);
+        stopSlideShow(); // berhenti slide otomatis kalau klik manual
+      });
+    });
+
+    // Event listener untuk tombol "Hubungi Sekarang"
+    ctaBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      showSection('kontak');
+      stopSlideShow();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Mulai slide otomatis saat halaman dimuat
+    startSlideShow();
+  </script>
+</body>
+</html>
